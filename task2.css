@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.lay1{
+    min-height: 92vh;
+    margin: 2%;
+    background: whitesmoke;
+    background-image: url('Images/APJ.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 13%;
+}
+
+.quote{
+    text-align: center;
+}
+
+
+#time{
+    text-align: center;
+}
+
+
+
+.flex-container{
+    margin: 2%;
+    display: flex;
+    padding: 10px;
+    overflow-x: scroll;
+}
+
+.flex-box{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: 280px;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
+}
+
+.flex-box .content{
+    padding-top: 155px;
+}
+
+.content{
+    height: 225px;
+    width: 300px;
+    bottom: 0;
+    left: 0;
+}
+
+.content h2{
+    background:  rgba(0,0,0,0.5);
+    color: white;
+    height: 70px;
+}
+
+.content h3{
+    background:  rgba(0,0,0,0.5);
+    color: white;
+    height: 70px;
+}
+
+.content h4{
+    background:  rgba(0,0,0,0.5);
+    color: white;
+    height: 70px;
+}
+
+.year{
+    height: 55px;
+    width: 300px;
+    background: #0D1282;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.lay3{
+    margin: 2%; 
+}
+
+.part1{
+    width: 100%;
+    min-height: 100px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #4ca92d, #9CFF2E);
+}
+
+.part1 p{
+    /* width: 65%; */
+    color: white;
+    font-size: 20px;
+}
+
+.part2{
+    width: 100%;
+    min-height: 100px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #A7EDE7,#1D5B79);
+}
+
+.part2 p{
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    margin-left: 19%;
+    text-align: right;
+}
+
+.part3{
+    width: 100%;
+    min-height: 100px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #9e4190, #fc9abb);
+}
+
+.part3 p{
+    width: 80%;
+    color: white;
+    font-size: 20px;
+}
+
+.part4{
+    width: 100%;
+    min-height: 100px;
+    padding: 15px;
+    background-image: linear-gradient(to right,#F2BE22, #f4931c);
+}
+
+.part4 p{
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    margin-left: 19%;
+    text-align: right;
+}
+
+.part5{
+    width: 100%;
+    min-height: 100px;
+    padding: 15px;
+    background-image: linear-gradient(to right, #000000, #919090);
+}
+
+.part5 p{
+    width: 65%;
+    color: white;
+    font-size: 20px;
+}
+
+
+@media only screen and (min-width: 1150px) {
+    .quote{
+        padding-right: 40%;
+    }
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff; 
+  }
+   
+::-webkit-scrollbar-thumb {
+    background: #bcbcbc; 
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
